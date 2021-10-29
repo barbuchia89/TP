@@ -1,0 +1,590 @@
+body
+{
+    background-image: url(2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    
+    padding: 0px;
+    margin: 0px; 
+
+
+    
+
+
+}
+
+
+#titulo
+
+{   width: 100%;
+    margin: 10px auto;
+    border: 10px solid whitesmoke;
+    padding: 10px;
+
+
+
+
+
+
+
+
+}
+
+
+.separador1
+
+{ height: 50px;
+
+
+
+
+}
+
+
+#foto1
+
+{   text-align: center;
+    display: block;
+
+    
+
+
+
+
+}
+
+header
+
+{ text-align: center;
+  background-color: bisque;
+  line-height: 1;
+  border-radius: 20px;
+  margin-left: 600px;
+  margin-right: 600px;
+
+ 
+
+
+
+}   
+
+
+
+
+img
+
+{   transition: all 0.5s linear;
+    border-style: solid;
+    border-width: 5px;
+    border-color:bisque;
+
+
+
+
+}
+
+img:hover
+
+{ transform: scale(0.9);
+
+
+}
+
+.menu
+
+
+{  
+    list-style: none;
+    padding: 0px;
+    background: rgba(59, 128, 57, 0.637);
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    height: 50%;
+    max-height: 1000px;
+    border-radius: 20px;
+
+}
+
+.menu li a
+
+{
+
+    text-decoration: none;
+    font-weight: bolder;
+    color:black;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+
+
+
+
+}
+
+
+.menu li
+
+{
+
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.menu li a:hover
+
+{
+
+
+    background: bisque;
+
+
+}
+
+nav ul li
+
+{
+
+    margin: 50px;
+    display: inline-block;
+    bottom: auto;
+    padding: 0px;
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+.main
+
+{   text-align: center;
+    font-size: 16;
+    background-color: bisque;
+
+
+
+}
+
+
+#texto1
+
+{text-align: center;
+background-color: bisque;
+border-radius: 20px;
+padding: 5px;
+margin-left: 50px;
+margin-right: 50px;
+line-height:1.5;
+
+  
+}
+
+#texto2
+
+{
+border-radius: 20px;
+padding: 20px;
+margin-left: 400px;
+margin-right: 400px;
+line-height:1.5;
+background-color: bisque;
+
+}
+
+
+#foto9
+
+{   text-align: center;
+    
+
+}
+
+#foto10
+
+{   text-align: center;
+    
+
+}
+
+
+
+.container-all img
+
+{
+
+float: right;
+padding: 100px;
+object-fit: cover;
+
+
+}
+
+
+.container-all
+
+{
+
+padding: 50px;
+display: flex;
+background-color: bisque;
+height: 2000px;
+margin-left: 200px;
+margin-right: 200px;
+border-radius: 20px;
+
+
+
+}
+
+.container-all2
+
+{
+
+
+margin-top: 50px;
+background-color: bisque;
+margin-left: 400px;
+margin-right: 400px;
+border-radius: 20px;
+text-align: center;
+
+}
+
+.container-all3
+
+{
+
+
+margin-top: 50px;
+background-color: bisque;
+margin-left: 400px;
+margin-right: 400px;
+border-radius: 20px;
+text-align: center;
+height: 1150px;
+line-height:2;
+
+}
+
+
+
+.hijo
+
+
+{
+
+margin-left: 50px;
+margin-right: 10px;
+height: 1000px;
+width: 1000px;
+border-radius: 20px;
+line-height:1.5;
+flex-grow: 1;
+flex-shrink: 0;
+flex: 1 1 auto;
+
+
+
+}
+
+
+<i class="fas fa-map-marker-alt"></i>
+
+
+#video
+
+{
+    
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 100px;  
+margin-bottom: 50px; 
+display: block;
+
+
+
+}
+
+
+.form-group
+
+{
+
+border-radius: 20px;
+font-size: 20px;
+
+}
+
+
+
+.footer
+
+{
+   
+    width: 100%;
+    margin: 10px auto;
+    border: 10px solid whitesmoke;
+    text-align: center;
+    
+
+}
+
+
+#pie
+
+{   width: 100%;
+    margin: 10px auto;
+    background-color: rgba(59, 128, 57, 0.637);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    
+
+}
+
+
+.formulario
+
+{ 
+
+display: block;
+gap: 20px;
+
+
+}
+
+#foto10
+
+{ 
+
+padding-top: 50px;
+
+
+}
+
+
+.formulario_input
+
+{ 
+
+line-height: 30px;
+width: 50%;
+border: 3px solid transparent;
+border-radius: 3px;
+height: 45px;
+line-height: 45px;
+padding: 0 45px 0 10px;
+transition: .3s ease all;
+text-align: center;
+font-size: 18px;
+
+
+}
+
+
+
+.formulario_input:focus
+
+{ 
+
+border:3px solid rgba(59, 128, 57, 0.637);
+outline: none;
+
+
+
+
+
+}
+
+
+.formulario_input_error
+
+{ 
+
+font-size: 12px;
+margin-bottom: 0;
+display: none;
+
+
+}
+
+
+.formulario_input_error-activo
+
+{ 
+
+display: block;
+
+
+
+}
+
+
+.form-control
+
+{ 
+
+line-height: 30px;
+width: 50%;
+border: 3px solid transparent;
+border-radius: 3px;
+height: 45px;
+line-height: 45px;
+padding: 0 45px 0 10px;
+transition: .3s ease all;
+text-align: center;
+font-size: 18px;
+
+
+}
+
+
+
+
+
+.form-control2
+
+{ 
+
+line-height: 30px;
+width: 50%;
+border: 3px solid transparent;
+border-radius: 3px;
+height: 80px;
+line-height: 45px;
+padding: 0 45px 0 10px;
+transition: .3s ease all;
+text-align: center;
+font-size: 18px;
+
+
+
+}
+
+.form-control2:focus
+
+{ 
+
+
+
+border:3px solid rgba(59, 128, 57, 0.637);
+outline: none;
+
+}
+
+
+
+
+.formulario_mensaje
+
+{ 
+
+height: 45px;
+line-height: 45px;
+background-color: brown;
+padding: 0 15px;
+border-radius: 3px;
+display: none;
+
+
+}
+
+
+.formulario_mensaje-activo
+
+{ 
+
+    display: block;
+
+
+}
+
+
+.formulario_mensaje p
+
+{ 
+
+margin: 0;
+
+}
+
+
+
+.form-check
+
+{ 
+
+
+
+}
+
+.formulario_enviar
+
+
+{ 
+
+display: block;
+flex-direction: column-reverse;
+align-items: center;
+
+
+
+}
+
+
+.formulario_boton
+
+
+{ 
+
+height: 70px;
+line-height: 45px;
+width: 200px;
+background-color: rgba(59, 128, 57, 0.637);
+font-weight: bold;
+border: none;
+border border-radius: 3px;
+cursor: pointer;
+font-size: 20px;
+
+
+}
+
+
+.formulario_mensaje_exito
+
+
+{ 
+
+    font-size: 22px;
+    color:rgba(59, 128, 57, 0.637);
+    display: none;
+
+
+}
+
+
+.formulario_mensaje_exito-activo
+
+
+{ 
+
+    display: block;
+    
+
+
+}
